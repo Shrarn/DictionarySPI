@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/rectangle_1_xxxhdpi">
+
+    <TextView
+        android:id="@+id/DictionaryName"
+        android:layout_width="318sp"
+        android:layout_height="77sp"
+        android:background="@drawable/dictionary_name_xxxhdpi"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Logo"
+        android:layout_width="62sp"
+        android:layout_height="60sp"
+        android:background="@drawable/logo_xxxhdpi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"></androidx.appcompat.widget.AppCompatButton>
+
+    <AutoCompleteTextView
+        android:id="@+id/actv_word"
+        android:layout_width="262sp"
+        android:layout_height="61sp"
+        android:background="@drawable/panel1_xxxhdpi"
+        android:hint="Enter Word"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37"></AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/tv_meaning"
+        android:layout_width="262sp"
+        android:layout_height="61sp"
+        android:background="@drawable/panel1_xxxhdpi"
+        android:text ="Meaning"
+        android:textColorHint="#ffffff"
+        android:textSize="24sp"
+        android:paddingTop="12sp"
+        android:textColor="#ffffffff"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525"></TextView>
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="289sp"
+        android:layout_height="24sp"
+        android:text="Want to add a custom meaning?"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AddWordButton"
+        android:layout_width="111sp"
+        android:layout_height="40sp"
+        android:background="@drawable/custombutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/youtubeButton1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/youtube"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.335"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/instagramButton1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"></androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/facebookButton1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"></androidx.appcompat.widget.AppCompatButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
