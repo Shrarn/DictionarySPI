@@ -15,3 +15,22 @@
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
+
+## Features
+- **Basic Database Operations:** Add, search, update, and delete word entries.
+- **Simple User Interface:** Java-based interface for easy interaction.
+- **Learning Tool:** Ideal for beginners looking to learn Java and database integration.
+
+
+
+
+## Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development or learning purposes.
+
+
+
+## Prerequisites
+Ensure you have the following installed:
+- **Java Development Kit (JDK)** version 8 or higher.
+- **Maven** or **Gradle** (for build automation).
+- **Git** (for cloning the repository).
