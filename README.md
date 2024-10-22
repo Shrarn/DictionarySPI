@@ -98,3 +98,9 @@ git push origin feature-branch
 5. Open a pull request to the [main repository](https://github.com/Shrarn/DictionarySPI).
 
 
+
+<br>
+
+# Code of Conduct
+
+This project adheres to the **Contributor Covenant [Code of Conduct](https://github.com/Shrarn/DictionarySPI/blob/master/CODE_OF_CONDUCT.md).** By participating, you are expected to uphold this code. Please report any unacceptable behavior to the project maintainers.
