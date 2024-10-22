@@ -104,3 +104,13 @@ git push origin feature-branch
 # Code of Conduct
 
 This project adheres to the **Contributor Covenant [Code of Conduct](https://github.com/Shrarn/DictionarySPI/blob/master/CODE_OF_CONDUCT.md).** By participating, you are expected to uphold this code. Please report any unacceptable behavior to the project maintainers.
+
+
+# License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Shrarn/DictionarySPI/blob/master/LICENSE) file for more details.
+
+# Acknowledgements
+
+- Developed during a learning program at **SoftPro India**.
+- Created and maintained by [Arnav Singh](https://github.com/Shrarn).
+---
