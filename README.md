@@ -73,3 +73,28 @@ Using Gradle:
 - Modify or delete word entries as needed.
 
 
+## Contributing
+
+We welcome contributions to the project. To contribute follow the guideline below. Please adhere to this project's `Code of Conduct`.
+
+1. Fork the repository.
+
+2. Create a new branch:
+
+```bash
+git checkout -b feature-branch
+```
+
+3. Make your changes, then commit.
+
+```bash
+git commit -m "Added new feature"
+
+```
+4. Push the changes.
+```bash
+git push origin feature-branch
+```
+5. Open a pull request to the [main repository](https://github.com/Shrarn/DictionarySPI).
+
+
